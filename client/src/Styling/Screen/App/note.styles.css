@@ -1,0 +1,11 @@
+.note__cont
+{
+    text-align: center;
+}
+
+.to__right
+{
+    float: right;
+    margin-right: 40px;
+    display: flex;
+}

@@ -1,0 +1,27 @@
+.nav__container
+{
+    display: flex;
+}
+
+.flex__display
+{
+    display: flex;
+}
+
+.flex__design{
+    justify-content: space-between;
+}
+
+.nav__cont{
+    background-color: #EDEDED;
+    margin: 12px 32px;
+    padding: 12px;
+}
+
+.sideNav{
+    flex: 1;
+}
+
+.mainNav{
+    flex: 6;
+}
