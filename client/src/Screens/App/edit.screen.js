@@ -7,10 +7,6 @@ import { HeaderNav } from "../../Component/Header/header-nav.component"
 
 export const EditScreen = () => {
 
-    const [data, setData] = useState();
-
-    const params = useParams();
-
     return (
         <div>
             <HeaderNav />
