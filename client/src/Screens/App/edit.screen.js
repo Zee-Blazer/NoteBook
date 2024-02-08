@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 // Params
 import { useParams } from 'react-router-dom';
 
 // Firebase
-import { getDatabase, ref, push, onValue, remove } from 'firebase/database';
 import { DB } from '../../firebase';
 
 import { HeaderNav } from "../../Component/Header/header-nav.component"

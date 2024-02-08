@@ -28,7 +28,6 @@ export const LoginScreen = () => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, pass)
         .then((userCredential) => {
-            // Signed in
             const user = userCredential.user;
             localStorage.setItem("user", JSON.stringify(user));
             navigate("/create");
