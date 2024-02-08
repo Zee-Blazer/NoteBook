@@ -7,7 +7,7 @@ import '../../Styling/Screen/App/home.styles.css';
 import { useNavigate } from 'react-router-dom';
 
 // Firebase
-import { getDatabase, ref, push, onValue, remove } from 'firebase/database';
+import { ref, onValue, remove } from 'firebase/database';
 import { DB } from '../../firebase';
 
 import { HeaderNav } from '../../Component/Header/header-nav.component';

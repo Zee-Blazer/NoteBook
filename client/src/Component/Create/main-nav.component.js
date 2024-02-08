@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // Firebase realtime Database
-import { getDatabase, ref, push, onValue, remove } from 'firebase/database';
+import { ref, push, } from 'firebase/database';
 import { DB } from '../../firebase';
 
 export const CreateMainNavComponent = () => {
@@ -19,7 +19,6 @@ export const CreateMainNavComponent = () => {
             ref(DB, `Notes/${user && user.uid}`),
             { note: editorState, userEmail: user && user.email }
         )
-        // console.log(editorState)
         setEditorState("");
     }
 
